@@ -1,0 +1,41 @@
+/*All content uses Helvetica as font-family.*/
+body {
+	font-family: Helvetica;
+}
+
+h1 {
+	text-align: center;
+	font-size: 100px;
+	color: khaki;
+}
+
+/*An id is used for the header because it´s the only element of its kind. Also, it could be used to go back to the top of the page using a <a> tag.*/
+#header {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+}
+
+.titles {
+	font-size: 32px;
+	color: white;
+}
+
+.prices {
+	color: blue;
+}
+
+#header, .titles, .prices {
+	font-weight: bold;
+}
+
+/*Ids are usefull for these three elements because they can be used to move through the page using <a> tags.*/
+#brushes {
+	background-color: mediumspringgreen;
+}
+
+#frames {
+	background-color: lightcoral;
+}
+
+#paint {
+	background-color: skyblue;
+}
